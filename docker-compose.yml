@@ -44,7 +44,7 @@ services:
     environment:
       <<: *db-environment
       MYSQL_DATABASE: "panel"
-      MYSQL_USER: "Mujahiid"
+      MYSQL_USER: "pterodactyl"
   cache:
     image: redis:alpine
     restart: always
